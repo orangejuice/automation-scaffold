@@ -1,0 +1,7 @@
+jobs:
+  - script: >
+      job('awesome-job') {
+        description("favorite job")
+      }
+  - file: src/jobs/example1Jobs.groovy
+  - file: src/jobs/example2Jobs.groovy

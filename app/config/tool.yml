@@ -1,0 +1,6 @@
+tool:
+  git:
+    installations:
+      - name: git
+        home: /usr/local/bin/git
+

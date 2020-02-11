@@ -1,0 +1,20 @@
+version: '3.7'
+services:
+  jenkins:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    ports:
+      - 8080:8080
+      - 50000:50000
+    # uncomment for docker in docker
+    privileged: true
+    volumes:
+      - jenkinsHome:/var/jenkins_home
+      # mount docker sock and binary for docker in docker (only works on linux)
+#      - /var/run/docker.sock:/var/run/docker.sock
+#      - /usr/bin/docker:/usr/bin/docker
+
+# enable persistent volume, stored in /var/lib/docker/volumes/ (only visible on linux)
+volumes:
+  jenkinsHome:

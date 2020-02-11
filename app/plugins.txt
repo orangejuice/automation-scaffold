@@ -1,0 +1,9 @@
+#https://plugins.jenkins.io/
+#pluginID:version
+configuration-as-code
+gitlab-plugin
+credentials-binding
+workflow-aggregator
+job-dsl
+cloudbees-folder
+gradle
