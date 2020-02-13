@@ -10,9 +10,15 @@ Thanks for these projects:
  - [Configuration as code](https://github.com/jenkinsci/configuration-as-code-plugin)
  - [Jenkins Docker Repo](https://github.com/jenkinsci/docker)
 
-One groovy script is provided to update all plugins right after the jenkins is startup.
+In tools folder, there are some tools might be useful or can be used for learning perspective.
 
-Most of the example codes are come from **Job DSL Gradle example**
+Example jobs are come from **Job DSL Gradle example**
+
+## Update
+
+Feb 13, 2020: remove updatePlugins.groovy from the auto run script scope.
+
+Feb 11, 2020: first release
 
 ## File structure
 

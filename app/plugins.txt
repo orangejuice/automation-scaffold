@@ -7,3 +7,5 @@ workflow-aggregator
 job-dsl
 cloudbees-folder
 gradle
+#buildOnlySCMChangesNotWorkOn1.32Version
+jenkins-multijob-plugin:1.31
